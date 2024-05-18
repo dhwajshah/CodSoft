@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-slider {
+    position: relative;
+    height: 60vh;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    background-color: rgba(73, 73, 73, 0.5);
+    padding: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.hero-content button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.hero-content button:hover {
+    background-color: #ff4a41;
+}
+
+.navigation {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 1rem;
+}
+
+.navigation span {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.featured-products {
+    padding: 2rem;
+    text-align: center;
+}
+
+.featured-products h2 {
+    margin-bottom: 2rem;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.product {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    text-align: center;
+    width: 30%;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.product h3 {
+    margin: 1rem 0;
+}
+
+.featured-products button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.featured-products button:hover {
+    background-color: #ff4a41;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
